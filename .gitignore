@@ -102,3 +102,10 @@ mvnw.cmd
 *.dylib
 *.so
 
+# Configuration files with secrets
+Backend/src/main/resources/application-dev.yml
+Backend/src/main/resources/application-prod.yml
+**/application-*.yml
+!**/application.yml
+!**/application-*.yml.template
+
